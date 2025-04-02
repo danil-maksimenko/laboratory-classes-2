@@ -58,7 +58,7 @@ const renderNewProductPage = (response) => {
     if (err) {
       response.write("<br /><div>No new products available.</div>");
     } else {
-      response.write(`<br /><div>New product data - ${splittedData}</div>`);
+      response.write(`<br /><div>New product data - ${data}</div>`);
     }
 
     response.write("</body>");
